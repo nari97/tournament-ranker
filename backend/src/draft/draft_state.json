@@ -1,0 +1,266 @@
+{
+  "players": [
+    {
+      "name": "Ashok",
+      "has_retry": true,
+      "squad": [
+        "MAR",
+        "URU",
+        "EGY",
+        "RSA"
+      ],
+      "blocked_groups": [
+        "C",
+        "H",
+        "G",
+        "A"
+      ]
+    },
+    {
+      "name": "Vishal",
+      "has_retry": true,
+      "squad": [
+        "FRA",
+        "ECU",
+        "PAR",
+        "CPV"
+      ],
+      "blocked_groups": [
+        "I",
+        "E",
+        "D",
+        "H"
+      ]
+    },
+    {
+      "name": "Nari",
+      "has_retry": true,
+      "squad": [
+        "BRA",
+        "AUS",
+        "ALG",
+        "CUW"
+      ],
+      "blocked_groups": [
+        "C",
+        "D",
+        "J",
+        "E"
+      ]
+    },
+    {
+      "name": "Nikhil",
+      "has_retry": true,
+      "squad": [
+        "GER",
+        "SEN",
+        "QAT",
+        "NZL"
+      ],
+      "blocked_groups": [
+        "E",
+        "I",
+        "B",
+        "G"
+      ]
+    },
+    {
+      "name": "sid",
+      "has_retry": true,
+      "squad": [
+        "BEL",
+        "USA",
+        "CAN",
+        "HAI"
+      ],
+      "blocked_groups": [
+        "G",
+        "D",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "name": "pod",
+      "has_retry": true,
+      "squad": [
+        "ENG",
+        "MEX",
+        "CZE",
+        "UZB"
+      ],
+      "blocked_groups": [
+        "L",
+        "A",
+        "A",
+        "K"
+      ]
+    },
+    {
+      "name": "singh",
+      "has_retry": true,
+      "squad": [
+        "CRO",
+        "KOR",
+        "TUN",
+        "IRQ"
+      ],
+      "blocked_groups": [
+        "L",
+        "A",
+        "F",
+        "I"
+      ]
+    },
+    {
+      "name": "achu",
+      "has_retry": true,
+      "squad": [
+        "ESP",
+        "SUI",
+        "SWE",
+        "COD"
+      ],
+      "blocked_groups": [
+        "H",
+        "B",
+        "F",
+        "K"
+      ]
+    },
+    {
+      "name": "keer",
+      "has_retry": true,
+      "squad": [
+        "NED",
+        "TUR",
+        "SCO",
+        "GHA"
+      ],
+      "blocked_groups": [
+        "F",
+        "D",
+        "C",
+        "L"
+      ]
+    },
+    {
+      "name": "satwik",
+      "has_retry": true,
+      "squad": [
+        "COL",
+        "IRN",
+        "CIV",
+        "JOR"
+      ],
+      "blocked_groups": [
+        "K",
+        "G",
+        "E",
+        "J"
+      ]
+    },
+    {
+      "name": "tarun",
+      "has_retry": true,
+      "squad": [
+        "ARG",
+        "JPN",
+        "NOR",
+        "KSA"
+      ],
+      "blocked_groups": [
+        "J",
+        "F",
+        "I",
+        "H"
+      ]
+    },
+    {
+      "name": "ajay",
+      "has_retry": true,
+      "squad": [
+        "POR",
+        "AUT",
+        "PAN",
+        "BIH"
+      ],
+      "blocked_groups": [
+        "K",
+        "J",
+        "L",
+        "B"
+      ]
+    }
+  ],
+  "currentRound": 5,
+  "currentTurnIndex": 0,
+  "turnOrder": [
+    5,
+    7,
+    2,
+    10,
+    1,
+    0,
+    8,
+    6,
+    9,
+    3,
+    11,
+    4
+  ],
+  "status": "COMPLETED",
+  "drawnTeamCode": null,
+  "draftedTeamCodes": [
+    "ENG",
+    "ESP",
+    "BRA",
+    "ARG",
+    "FRA",
+    "MAR",
+    "NED",
+    "CRO",
+    "COL",
+    "GER",
+    "POR",
+    "BEL",
+    "USA",
+    "AUT",
+    "SEN",
+    "IRN",
+    "KOR",
+    "TUR",
+    "URU",
+    "ECU",
+    "JPN",
+    "AUS",
+    "SUI",
+    "MEX",
+    "CAN",
+    "PAN",
+    "QAT",
+    "CIV",
+    "TUN",
+    "SCO",
+    "EGY",
+    "PAR",
+    "NOR",
+    "ALG",
+    "SWE",
+    "CZE",
+    "UZB",
+    "COD",
+    "CUW",
+    "KSA",
+    "CPV",
+    "RSA",
+    "GHA",
+    "IRQ",
+    "JOR",
+    "NZL",
+    "BIH",
+    "HAI"
+  ],
+  "mulliganUsedThisTurn": false,
+  "entryFee": 15
+}

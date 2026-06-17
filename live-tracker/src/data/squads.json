@@ -1,0 +1,131 @@
+{
+  "entryFee": 15,
+  "totalPot": 180,
+  "payouts": {
+    "first": 108,
+    "second": 54,
+    "third": 18
+  },
+  "players": [
+    {
+      "player_name": "Ashok",
+      "has_retry": true,
+      "squad": [
+        "MAR",
+        "URU",
+        "EGY",
+        "RSA"
+      ]
+    },
+    {
+      "player_name": "Vishal",
+      "has_retry": true,
+      "squad": [
+        "FRA",
+        "ECU",
+        "PAR",
+        "CPV"
+      ]
+    },
+    {
+      "player_name": "Nari",
+      "has_retry": true,
+      "squad": [
+        "BRA",
+        "AUS",
+        "ALG",
+        "CUW"
+      ]
+    },
+    {
+      "player_name": "Nikhil",
+      "has_retry": true,
+      "squad": [
+        "GER",
+        "SEN",
+        "QAT",
+        "NZL"
+      ]
+    },
+    {
+      "player_name": "sid",
+      "has_retry": true,
+      "squad": [
+        "BEL",
+        "USA",
+        "CAN",
+        "HAI"
+      ]
+    },
+    {
+      "player_name": "pod",
+      "has_retry": true,
+      "squad": [
+        "ENG",
+        "MEX",
+        "CZE",
+        "UZB"
+      ]
+    },
+    {
+      "player_name": "singh",
+      "has_retry": true,
+      "squad": [
+        "CRO",
+        "KOR",
+        "TUN",
+        "IRQ"
+      ]
+    },
+    {
+      "player_name": "achu",
+      "has_retry": true,
+      "squad": [
+        "ESP",
+        "SUI",
+        "SWE",
+        "COD"
+      ]
+    },
+    {
+      "player_name": "keer",
+      "has_retry": true,
+      "squad": [
+        "NED",
+        "TUR",
+        "SCO",
+        "GHA"
+      ]
+    },
+    {
+      "player_name": "satwik",
+      "has_retry": true,
+      "squad": [
+        "COL",
+        "IRN",
+        "CIV",
+        "JOR"
+      ]
+    },
+    {
+      "player_name": "tarun",
+      "has_retry": true,
+      "squad": [
+        "ARG",
+        "JPN",
+        "NOR",
+        "KSA"
+      ]
+    },
+    {
+      "player_name": "ajay",
+      "has_retry": true,
+      "squad": [
+        "POR",
+        "AUT",
+        "PAN",
+        "BIH"
+      ]
+    }
+  ]
+}

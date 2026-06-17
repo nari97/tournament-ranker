@@ -1,0 +1,434 @@
+[
+  {
+    "id": "1",
+    "name": "Mexico",
+    "code": "MEX",
+    "flag": "https://flagcdn.com/w80/mx.png",
+    "group": "A",
+    "rank": 17,
+    "pool": 2
+  },
+  {
+    "id": "2",
+    "name": "South Africa",
+    "code": "RSA",
+    "flag": "https://flagcdn.com/w80/za.png",
+    "group": "A",
+    "rank": 57,
+    "pool": 4
+  },
+  {
+    "id": "3",
+    "name": "South Korea",
+    "code": "KOR",
+    "flag": "https://flagcdn.com/w80/kr.png",
+    "group": "A",
+    "rank": 23,
+    "pool": 2
+  },
+  {
+    "id": "4",
+    "name": "Czech Republic",
+    "code": "CZE",
+    "flag": "https://flagcdn.com/w80/cz.png",
+    "group": "A",
+    "rank": 43,
+    "pool": 3
+  },
+  {
+    "id": "5",
+    "name": "Canada",
+    "code": "CAN",
+    "flag": "https://flagcdn.com/w80/ca.png",
+    "group": "B",
+    "rank": 30,
+    "pool": 3
+  },
+  {
+    "id": "6",
+    "name": "Bosnia and Herzegovina",
+    "code": "BIH",
+    "flag": "https://flagcdn.com/w80/ba.png",
+    "group": "B",
+    "rank": 74,
+    "pool": 4
+  },
+  {
+    "id": "7",
+    "name": "Qatar",
+    "code": "QAT",
+    "flag": "https://flagcdn.com/w80/qa.png",
+    "group": "B",
+    "rank": 36,
+    "pool": 3
+  },
+  {
+    "id": "8",
+    "name": "Switzerland",
+    "code": "SUI",
+    "flag": "https://flagcdn.com/w80/ch.png",
+    "group": "B",
+    "rank": 19,
+    "pool": 2
+  },
+  {
+    "id": "9",
+    "name": "Brazil",
+    "code": "BRA",
+    "flag": "https://flagcdn.com/w80/br.png",
+    "group": "C",
+    "rank": 5,
+    "pool": 1
+  },
+  {
+    "id": "10",
+    "name": "Morocco",
+    "code": "MAR",
+    "flag": "https://flagcdn.com/w80/ma.png",
+    "group": "C",
+    "rank": 11,
+    "pool": 1
+  },
+  {
+    "id": "11",
+    "name": "Haiti",
+    "code": "HAI",
+    "flag": "https://flagcdn.com/w80/ht.png",
+    "group": "C",
+    "rank": 86,
+    "pool": 4
+  },
+  {
+    "id": "12",
+    "name": "Scotland",
+    "code": "SCO",
+    "flag": "https://flagcdn.com/w80/gb-sct.png",
+    "group": "C",
+    "rank": 39,
+    "pool": 3
+  },
+  {
+    "id": "13",
+    "name": "United States",
+    "code": "USA",
+    "flag": "https://flagcdn.com/w80/us.png",
+    "group": "D",
+    "rank": 16,
+    "pool": 2
+  },
+  {
+    "id": "14",
+    "name": "Paraguay",
+    "code": "PAR",
+    "flag": "https://flagcdn.com/w80/py.png",
+    "group": "D",
+    "rank": 45,
+    "pool": 3
+  },
+  {
+    "id": "15",
+    "name": "Australia",
+    "code": "AUS",
+    "flag": "https://flagcdn.com/w80/au.png",
+    "group": "D",
+    "rank": 24,
+    "pool": 2
+  },
+  {
+    "id": "16",
+    "name": "Turkey",
+    "code": "TUR",
+    "flag": "https://flagcdn.com/w80/tr.png",
+    "group": "D",
+    "rank": 26,
+    "pool": 2
+  },
+  {
+    "id": "17",
+    "name": "Germany",
+    "code": "GER",
+    "flag": "https://flagcdn.com/w80/de.png",
+    "group": "E",
+    "rank": 9,
+    "pool": 1
+  },
+  {
+    "id": "18",
+    "name": "Curaçao",
+    "code": "CUW",
+    "flag": "https://flagcdn.com/w80/cw.png",
+    "group": "E",
+    "rank": 90,
+    "pool": 4
+  },
+  {
+    "id": "19",
+    "name": "Ivory Coast",
+    "code": "CIV",
+    "flag": "https://flagcdn.com/w80/ci.png",
+    "group": "E",
+    "rank": 40,
+    "pool": 3
+  },
+  {
+    "id": "20",
+    "name": "Ecuador",
+    "code": "ECU",
+    "flag": "https://flagcdn.com/w80/ec.png",
+    "group": "E",
+    "rank": 23,
+    "pool": 2
+  },
+  {
+    "id": "21",
+    "name": "Netherlands",
+    "code": "NED",
+    "flag": "https://flagcdn.com/w80/nl.png",
+    "group": "F",
+    "rank": 7,
+    "pool": 1
+  },
+  {
+    "id": "22",
+    "name": "Japan",
+    "code": "JPN",
+    "flag": "https://flagcdn.com/w80/jp.png",
+    "group": "F",
+    "rank": 17,
+    "pool": 2
+  },
+  {
+    "id": "23",
+    "name": "Sweden",
+    "code": "SWE",
+    "flag": "https://flagcdn.com/w80/se.png",
+    "group": "F",
+    "rank": 28,
+    "pool": 3
+  },
+  {
+    "id": "24",
+    "name": "Tunisia",
+    "code": "TUN",
+    "flag": "https://flagcdn.com/w80/tn.png",
+    "group": "F",
+    "rank": 41,
+    "pool": 3
+  },
+  {
+    "id": "25",
+    "name": "Belgium",
+    "code": "BEL",
+    "flag": "https://flagcdn.com/w80/be.png",
+    "group": "G",
+    "rank": 8,
+    "pool": 1
+  },
+  {
+    "id": "26",
+    "name": "Egypt",
+    "code": "EGY",
+    "flag": "https://flagcdn.com/w80/eg.png",
+    "group": "G",
+    "rank": 32,
+    "pool": 3
+  },
+  {
+    "id": "27",
+    "name": "Iran",
+    "code": "IRN",
+    "flag": "https://flagcdn.com/w80/ir.png",
+    "group": "G",
+    "rank": 20,
+    "pool": 2
+  },
+  {
+    "id": "28",
+    "name": "New Zealand",
+    "code": "NZL",
+    "flag": "https://flagcdn.com/w80/nz.png",
+    "group": "G",
+    "rank": 89,
+    "pool": 4
+  },
+  {
+    "id": "29",
+    "name": "Spain",
+    "code": "ESP",
+    "flag": "https://flagcdn.com/w80/es.png",
+    "group": "H",
+    "rank": 2,
+    "pool": 1
+  },
+  {
+    "id": "30",
+    "name": "Cape Verde",
+    "code": "CPV",
+    "flag": "https://flagcdn.com/w80/cv.png",
+    "group": "H",
+    "rank": 70,
+    "pool": 4
+  },
+  {
+    "id": "31",
+    "name": "Saudi Arabia",
+    "code": "KSA",
+    "flag": "https://flagcdn.com/w80/sa.png",
+    "group": "H",
+    "rank": 58,
+    "pool": 4
+  },
+  {
+    "id": "32",
+    "name": "Uruguay",
+    "code": "URU",
+    "flag": "https://flagcdn.com/w80/uy.png",
+    "group": "H",
+    "rank": 15,
+    "pool": 2
+  },
+  {
+    "id": "33",
+    "name": "France",
+    "code": "FRA",
+    "flag": "https://flagcdn.com/w80/fr.png",
+    "group": "I",
+    "rank": 3,
+    "pool": 1
+  },
+  {
+    "id": "34",
+    "name": "Senegal",
+    "code": "SEN",
+    "flag": "https://flagcdn.com/w80/sn.png",
+    "group": "I",
+    "rank": 18,
+    "pool": 2
+  },
+  {
+    "id": "35",
+    "name": "Iraq",
+    "code": "IRQ",
+    "flag": "https://flagcdn.com/w80/iq.png",
+    "group": "I",
+    "rank": 58,
+    "pool": 4
+  },
+  {
+    "id": "36",
+    "name": "Norway",
+    "code": "NOR",
+    "flag": "https://flagcdn.com/w80/no.png",
+    "group": "I",
+    "rank": 33,
+    "pool": 3
+  },
+  {
+    "id": "37",
+    "name": "Argentina",
+    "code": "ARG",
+    "flag": "https://flagcdn.com/w80/ar.png",
+    "group": "J",
+    "rank": 1,
+    "pool": 1
+  },
+  {
+    "id": "38",
+    "name": "Algeria",
+    "code": "ALG",
+    "flag": "https://flagcdn.com/w80/dz.png",
+    "group": "J",
+    "rank": 38,
+    "pool": 3
+  },
+  {
+    "id": "39",
+    "name": "Austria",
+    "code": "AUT",
+    "flag": "https://flagcdn.com/w80/at.png",
+    "group": "J",
+    "rank": 22,
+    "pool": 2
+  },
+  {
+    "id": "40",
+    "name": "Jordan",
+    "code": "JOR",
+    "flag": "https://flagcdn.com/w80/jo.png",
+    "group": "J",
+    "rank": 62,
+    "pool": 4
+  },
+  {
+    "id": "41",
+    "name": "Portugal",
+    "code": "POR",
+    "flag": "https://flagcdn.com/w80/pt.png",
+    "group": "K",
+    "rank": 6,
+    "pool": 1
+  },
+  {
+    "id": "42",
+    "name": "Democratic Republic of the Congo",
+    "code": "COD",
+    "flag": "https://flagcdn.com/w80/cd.png",
+    "group": "K",
+    "rank": 56,
+    "pool": 4
+  },
+  {
+    "id": "43",
+    "name": "Uzbekistan",
+    "code": "UZB",
+    "flag": "https://flagcdn.com/w80/uz.png",
+    "group": "K",
+    "rank": 53,
+    "pool": 4
+  },
+  {
+    "id": "44",
+    "name": "Colombia",
+    "code": "COL",
+    "flag": "https://flagcdn.com/w80/co.png",
+    "group": "K",
+    "rank": 13,
+    "pool": 1
+  },
+  {
+    "id": "45",
+    "name": "England",
+    "code": "ENG",
+    "flag": "https://flagcdn.com/w80/gb-eng.png",
+    "group": "L",
+    "rank": 4,
+    "pool": 1
+  },
+  {
+    "id": "46",
+    "name": "Croatia",
+    "code": "CRO",
+    "flag": "https://flagcdn.com/w80/hr.png",
+    "group": "L",
+    "rank": 10,
+    "pool": 1
+  },
+  {
+    "id": "47",
+    "name": "Ghana",
+    "code": "GHA",
+    "flag": "https://flagcdn.com/w80/gh.png",
+    "group": "L",
+    "rank": 73,
+    "pool": 4
+  },
+  {
+    "id": "48",
+    "name": "Panama",
+    "code": "PAN",
+    "flag": "https://flagcdn.com/w80/pa.png",
+    "group": "L",
+    "rank": 31,
+    "pool": 3
+  }
+]
