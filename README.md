@@ -15,13 +15,40 @@ The project is divided into the following key directories:
 
 ---
 
+## 🎯 System Stages & Core Mechanics
+
+The system operates in two entirely decoupled phases, designed to keep runtime code simple, secure, and cost-efficient.
+
+### Phase 1: The Draft Stage (Local Draft Studio)
+The draft operates as an interactive state machine run locally on draft night. It processes players round-by-round and outputs the final teams configuration.
+
+*   **Tier Balance**: 48 teams are divided into 4 balanced pools of 12 (based on FIFA rankings). Every player drafts exactly 1 team from Pool 1, 1 from Pool 2, 1 from Pool 3, and 1 from Pool 4.
+*   **Group Conflict Prevention**: No player can hold more than 1 team from the same official tournament group (Groups A through L) to prevent internal point cannibalization.
+*   **Exclusivity & Ghost Teams**: A country assigned to a player cannot be owned by anyone else. If there are fewer than 12 players ($P < 12$), exactly $12 - P$ teams per pool are designated as unowned "Ghost Teams."
+*   **The Mulligan/Retry Mechanic**: Every player has exactly **one shared Retry token** (`has_retry: true`) for the entire draft.
+    *   **Atomic Window**: Can only trigger the retry on the immediate country just drawn.
+    *   **Recirculation**: Rejected teams are thrown straight back into the active pool.
+    *   **Deadlock Safety Valve**: The engine disables the "Retry" button if the remaining pool doesn't contain at least one valid alternative team.
+*   **Output**: Generates a frozen `squads.json` manifest.
+
+### Phase 2: The Game Stage (Live Leaderboard)
+Once the opening game kicks off, the draft configuration state undergoes a **Temporal Mutability Lock** and becomes permanently immutable. The application runs as a secure, read-only live tracker.
+
+*   **Scoring Scope**: Points are accumulated strictly during the 72 group-stage matches. Knockout rounds have zero impact.
+*   **Scoring Matrix**: Win = **3 points**, Draw = **1 point**, Loss = **0 points**. Leaderboard scores shift dynamically in real-time during live match windows.
+*   **Leaderboard Tiebreakers**:
+    1. Total Combined Squad Points
+    2. Total Combined Squad Goal Difference
+    3. Head-to-Head Point Multiplier (from matches where tied players' drafted teams faced each other directly)
+*   **In-Memory Cache Gate**: Avoids third-party API rate limits by proxying requests. If the cache age is $< 60$ seconds, it serves the cached state; otherwise, it fetches fresh data, recalculates points, and updates the cache.
+
+---
+
 ## 🚀 Getting Started
 
 To run the application components locally, follow the instructions below.
 
 ### ⚙️ Backend Engine Setup
-
-The backend handles drafting mechanisms, match states, and squads.
 
 1. Navigate to the backend directory:
    ```bash
@@ -35,18 +62,16 @@ The backend handles drafting mechanisms, match states, and squads.
    ```bash
    npm run seed
    ```
-4. Start the Express development server (runs with hot-reloading on port `3001`):
+4. Start the Express development server (runs on port `3001`):
    ```bash
    npm run dev
    ```
-5. *(Optional)* Run draft engine unit tests:
+5. Run draft engine unit tests:
    ```bash
    npm run test:draft
    ```
 
 ### 📊 Live Tracker Dashboard Setup
-
-The live tracker is a Next.js application built with TypeScript, React, and CSS.
 
 1. Navigate to the live tracker directory:
    ```bash
@@ -56,7 +81,7 @@ The live tracker is a Next.js application built with TypeScript, React, and CSS.
    ```bash
    npm install
    ```
-3. Run the development server:
+3. Run the Next.js development server:
    ```bash
    npm run dev
    ```
@@ -69,13 +94,3 @@ The live tracker is a Next.js application built with TypeScript, React, and CSS.
 - **Frontend Mockup**: HTML, Vanilla Tailwind CSS, Canvas Confetti, Phosphor Icons
 - **Backend API**: Node.js, Express, TypeScript, `tsx` runner
 - **Live Tracker**: React, Next.js, TypeScript, Tailwind CSS
-- **Design & Guidelines**: Markdown specifications for responsive typography, motion specs, and WCAG accessibility standards
-
----
-
-## 🏆 Key Features
-
-- **Interactive Draft Pitch**: Interactive draft interface for selecting FIFA 2026 squads.
-- **Dynamic Seeder**: Populates complete schedules, groups, matches, teams, and dummy squads automatically.
-- **Live Dashboard**: Monitors matches, standings, and sweepstakes points in real-time.
-- **Robust Draft Engine**: Backend logic checking team selection limits, budget, and pick orders.
